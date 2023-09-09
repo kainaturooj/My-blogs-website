@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Blog Post</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Personal Blogging App</h1>
+        <button class="log-out" id="logOut">Log Out</button>
+        
+    
+      </div>
+      <div class="blog-navbar">
+    <h1>Dashboard</h1>
+
+    </div>
+    <div class="blog-container">
+        <div class="inner-blog-container">
+    <form id="blog-post-form">
+        <label for="post-title">Title:</label>
+        <input type="text" id="post-title" required>
+        <br>
+        <br>
+        <br>
+        
+
+        <label for="post-content">Content:</label>
+        <textarea id="post-content" rows="4" required></textarea>
+        <br>
+        <br>
+    
+
+        <button type="button" id="create-post-button">Publish</button>
+    </form>
+    </div>
+    </div>
+
+    <h2 class="my-blogs">My Blogs</h2>
+    <ul id="blog-post-list"></ul>
+
+    <script type="module" src="config.js"></script>
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>
